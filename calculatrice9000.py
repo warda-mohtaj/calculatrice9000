@@ -89,10 +89,7 @@ if __name__ == "__main__":
     Decimal.grid(row=5, column=1) 
     
     percent= Button(block, text='%', command=lambda: click('%'), height=2, width=10) 
-    percent.grid(row=6, column=1) 
-    
-    memo= Button(block, text='M',  height=2, width=10) 
-    memo.grid(row=6, column=2)   
+    percent.grid(row=6, column=1)   
 
     racine_carree = Button(block, text="\U0000221A", command=lambda: click("**0.5"), height=2, width=10) 
     racine_carree.grid(row=6, column=1) 
